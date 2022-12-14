@@ -1,0 +1,91 @@
+@import "../../../styles/_breakpoints"
+
+.headerNavigationItems
+  display: flex
+  flex-direction: column
+  gap: 10px
+  transform: translateX(-20px) translateY(120px)
+  font-size: 16px
+  @include breakpoint(md-sm)
+    transform: translateX(-60px) translateY(20px)
+    font-size: 12px
+
+.headerNavigationItemActive
+  display: flex
+  align-items: center
+  height: 20px
+  cursor: pointer
+  transform: translatex(-40px)
+  transition-duration: 500ms
+  @include breakpoint(md-sm)
+    height: 10px
+
+.headerNavigationItem
+  display: flex
+  align-items: center
+  height: 10px
+  cursor: pointer
+  transform: translatex(0px)
+  transition-duration: 500ms
+
+  &:hover
+    .navigationLineHovered
+      transform: translatex(0px)
+      display: block
+    .headerNavigationItemText
+      opacity: 1
+      transition-duration: 500ms
+    .navigationLine
+      height: .5px
+
+.navigationLineSelected
+  width: 100px
+  height: .5px
+  background: white
+  overflow: hidden
+  flex: 1
+  margin-left: 10px
+  transition: 500ms ease-in-out all
+  @include breakpoint(md-sm)
+    width: 90px
+
+.navigationLine
+  width: 40px
+  height: .5px
+  background: grey
+  transition: 500ms ease-in-out all
+  overflow: hidden
+  margin: 0px 10px
+  @include breakpoint(md-sm)
+    width: 25px
+
+.navigationLineHovered
+  background: white
+  width: 40px
+  height: .5px
+  transform: translatex(-40px)
+  transition-duration: 500ms
+  @include breakpoint(md-sm)
+    width: 25px
+
+.navigationDot
+  width: 6px
+  height: 6px
+  background: white
+  border-radius: 50%
+  opacity: 1
+  margin-right: 10px
+  transition: 1000ms ease-in-out opacity
+
+.navigationDotHidden
+  opacity: 0
+
+.headerNavigationItemTextActive
+  opacity: 1
+  transition: all ease-in-out 500ms
+
+.headerNavigationItemText
+  opacity: 0
+  transition: all ease-in-out 500ms
+  @include breakpoint(md-sm)
+    opacity: 1

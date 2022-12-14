@@ -1,0 +1,36 @@
+@import "../../../styles/_breakpoints"
+
+.worksWrapper
+  position: absolute
+  width: 80%
+  height: 40%
+  left: 50%
+  transform: translateX(-50%)
+  top: 30%
+  text-align: right
+  padding: 10px
+
+.worksTitle
+  font-weight: 300
+  font-size: 66px
+  letter-spacing: 0.3em
+  margin-bottom: 20px
+  @include breakpoint(lg)
+    font-size: 54px
+  @include breakpoint(md)
+    font-size: 48px
+  @include breakpoint(md-sm)
+    font-size: 32px
+
+.worksEach
+  cursor: url('../../../assets/icons/swiper.svg'), auto
+  width: 100%
+  height: 100%
+  border-top: 2px solid white
+  border-bottom: 2px solid white
+  padding: 20px
+  @include breakpoint(md-sm)
+    padding: 0px
+    font-size: 13px
+.worksEachContent
+  padding: 20px

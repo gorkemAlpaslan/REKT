@@ -1,0 +1,54 @@
+@import "./_breakpoints"
+
+.container
+  border: 1.5px solid white
+  height: 100%
+  overflow: hidden
+  position: relative
+
+.headerWrapper
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  padding: 0px 50px
+  height: 100px
+
+.headerLogo
+  font-weight: 1000
+  letter-spacing: 10px
+  position: fixed
+  top: 50px
+  @include breakpoint(md-sm)
+    display: none
+.headerContact
+  position: fixed
+  right: 30px
+  top: 50px
+  @include breakpoint(md-sm)
+    font-size: 12px
+    top: 30px
+
+  &:hover
+    .navigationLineHovered
+      transform: translatex(0px)
+      display: block
+    .headerNavigationItemText
+      opacity: 1
+      transition-duration: 500ms
+    .navigationLine
+      height: .5px
+
+.message
+  font-size: 36px
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translateX(-50%) translateY(-50%)
+  @include breakpoint(lg)
+    font-size: 26px
+  @include breakpoint(md)
+    font-size: 22px
+  @include breakpoint(md-sm)
+    font-size: 13px
+  @include breakpoint(sm)
+    font-size: 12px

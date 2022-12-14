@@ -1,0 +1,30 @@
+@import "../../../styles/_breakpoints"
+
+.welcomeTitle
+  position: absolute
+  right: 0px
+  top: 40%
+  font-weight: 300
+  font-size: 96px
+  line-height: 145px
+  letter-spacing: 0.3em
+  @include breakpoint(lg)
+    font-size: 80px
+  @include breakpoint(md)
+    font-size: 66px
+  @include breakpoint(md-sm)
+    font-size: 36px
+    right: 10px
+
+.welcomeUnderTitles
+  position: absolute
+  right: 20px
+  top: 52%
+
+.scroll
+  position: absolute
+  bottom: 15px
+  left: 50%
+  transform: translateX(-50%)
+  @include breakpoint(md-sm)
+    bottom: 12px
