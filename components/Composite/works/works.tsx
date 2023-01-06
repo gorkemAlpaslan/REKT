@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 
 const Works: React.FC = () => {
-  const [currentWork, SetCurrentWork] = useState<number>(1);
+  const [currentWork, SetCurrentWork] = useState<number>(0);
 
   return (
     <div>

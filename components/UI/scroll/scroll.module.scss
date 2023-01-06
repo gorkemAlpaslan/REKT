@@ -64,6 +64,7 @@ $animDuration: 5s;
 @keyframes colorSlide {
   0% {
     background-position: 0% 100%;
+    opacity: 1;
   }
   20% {
     background-position: 0% 0%;
@@ -78,6 +79,7 @@ $animDuration: 5s;
   30% {
     background-color: $colorOutlineFade;
     background-position: 0% 100%;
+    opacity: 0.6;
   }
   50% {
     background-position: 0% 0%;
@@ -92,6 +94,7 @@ $animDuration: 5s;
   60% {
     background-color: $colorOutlineFade;
     background-position: 0% 100%;
+    opacity: 0.3;
   }
   80% {
     background-position: 0% 0%;
@@ -102,6 +105,7 @@ $animDuration: 5s;
   90%,
   100% {
     background-color: $colorOutline;
+    opacity: 0;
   }
 }
 
