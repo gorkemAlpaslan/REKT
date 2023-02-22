@@ -85,6 +85,12 @@
     transform: translateX(-50%) translateY(-30%)
 .aboutEachLinksWrapper
   padding: 20px
+  display: flex
+  justify-content: flex-end
+  gap: 20px
+  a
+    &:hover
+      scale: 1.2
   @include breakpoint(lg)
     font-size: 13px
     padding: 10px

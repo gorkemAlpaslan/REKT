@@ -3,6 +3,9 @@ import KadirProfile from "../assets/KadirProfile.png";
 import MuratProfile from "../assets/MuratProfile.jpg";
 import KursatProfile from "../assets/KursatProfile.jpeg";
 import linkedin from "../assets/icons/linkedin.png";
+import behance from "../assets/icons/behance.png";
+import github from "../assets/icons/github.png";
+import facebook from "../assets/icons/facebook.png";
 
 export const NavigationList = [
   { id: 1, text: "Home" },
@@ -55,12 +58,14 @@ export const AboutUs = [
     id: 0,
     Name: "MURAT",
     Field: "Designer",
-    description: "TESTMURAT",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
     image: MuratProfile,
     links: [
-      { icon: "", adress: "" },
-      { icon: "", adress: "" },
-      { icon: "", adress: "" },
+      { icon: linkedin, adress: "" },
+      { icon: github, adress: "" },
+      { icon: behance, adress: "" },
+      { icon: facebook, adress: "" },
     ],
   },
   {
@@ -68,36 +73,41 @@ export const AboutUs = [
     Name: "KADIR",
     Field: "Game Designer",
     description:
-      "Thanks to our knowledge of gamification, concept creation and design in the gaming fields, we change the rules of the game and create original things in our services. We are the game changers.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
     image: KadirProfile,
     links: [
-      { icon: "", adress: "" },
-      { icon: "", adress: "" },
-      { icon: "", adress: "" },
+      { icon: linkedin, adress: "" },
+      { icon: github, adress: "" },
+      { icon: behance, adress: "" },
+      { icon: facebook, adress: "" },
     ],
   },
   {
     id: 2,
     Name: "KURSAT",
     Field: "Designer",
-    description: "TESTKURSAT",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
     image: KursatProfile,
     links: [
-      { icon: "", adress: "" },
-      { icon: "", adress: "" },
-      { icon: "", adress: "" },
+      { icon: linkedin, adress: "" },
+      { icon: github, adress: "" },
+      { icon: behance, adress: "" },
+      { icon: facebook, adress: "" },
     ],
   },
   {
     id: 3,
     Name: "GORKEM",
     Field: "Designer",
-    description: "TESTGORKEM",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
     image: GorkemProfile,
     links: [
       { icon: linkedin, adress: "" },
-      { icon: linkedin, adress: "" },
-      { icon: linkedin, adress: "" },
+      { icon: github, adress: "" },
+      { icon: behance, adress: "" },
+      { icon: facebook, adress: "" },
     ],
   },
 ];
