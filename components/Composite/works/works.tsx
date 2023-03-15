@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import worksStyle from "./works.module.sass";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Scrollbar, A11y } from "swiper";
 import { worksTitles } from "../../../pages/data";
 import "swiper/css";
 import "swiper/css/navigation";
