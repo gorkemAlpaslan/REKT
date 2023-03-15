@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import worksStyle from "./works.module.sass";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar, A11y } from "swiper";
-import { worksTitles } from "../../../pages/data";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
@@ -10,6 +9,44 @@ import "swiper/css/scrollbar";
 const Works: React.FC = () => {
   const [currentWork, SetCurrentWork] = useState<number>(0);
 
+  const worksTitles = [
+    {
+      id: 0,
+      text: "WORKS",
+      content:
+        "A definitive message aligns a company's internal and external stakeholders towards a shared direction. We support clients in defining their vision, mission, and values to map a clear path for the future of their business and brand.",
+    },
+    {
+      id: 1,
+      text: "CREATING VISIONS",
+      content:
+        "A definitive message aligns a company's internal and external stakeholders towards a shared direction. We support clients in defining their vision, mission, and values to map a clear path for the future of their business and brand.",
+    },
+    {
+      id: 2,
+      text: "BUILDING BRANDS",
+      content:
+        "A definitive message aligns a company's internal and external stakeholders towards a shared direction. We support clients in defining their vision, mission, and values to map a clear path for the future of their business and brand.",
+    },
+    {
+      id: 3,
+      text: "GRAPHIC DESIGN",
+      content:
+        "A definitive message aligns a company's internal and external stakeholders towards a shared direction. We support clients in defining their vision, mission, and values to map a clear path for the future of their business and brand.",
+    },
+    {
+      id: 4,
+      text: "WEB DESIGN",
+      content:
+        "A definitive message aligns a company's internal and external stakeholders towards a shared direction. We support clients in defining their vision, mission, and values to map a clear path for the future of their business and brand.",
+    },
+    {
+      id: 5,
+      text: "APP DESIGN",
+      content:
+        "A definitive message aligns a company's internal and external stakeholders towards a shared direction. We support clients in defining their vision, mission, and values to map a clear path for the future of their business and brand.",
+    },
+  ];
   return (
     <div>
       <div className={worksStyle.worksWrapper}>
@@ -25,7 +62,7 @@ const Works: React.FC = () => {
         >
           {worksTitles.map((work: any, index: any) => {
             return (
-              <SwiperSlide key={index}>
+              <SwiperSlide key={work.text}>
                 <div className={worksStyle.worksEachContent}>
                   {work.content}
                 </div>

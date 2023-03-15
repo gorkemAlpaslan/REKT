@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.sass";
 import { useState } from "react";
 import HederNavigation from "../components/Composite/header-navigation/header-navigation";
-import { NavigationList } from "./data";
 import Welcome from "../components/Composite/welcome/welcome";
 import Works from "../components/Composite/works/works";
 import Message from "../components/Composite/message/message";
@@ -14,6 +13,13 @@ export default function Home() {
   const currentPageClickHandler = (currentPage: number) => {
     SetPageActive(currentPage);
   };
+
+  const NavigationList = [
+    { id: 1, text: "Home" },
+    { id: 2, text: "Message" },
+    { id: 3, text: "Projects" },
+    { id: 4, text: "About" },
+  ];
 
   return (
     <div className={styles.container}>
