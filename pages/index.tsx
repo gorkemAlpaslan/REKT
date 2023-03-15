@@ -7,7 +7,6 @@ import { NavigationList } from "./data";
 import Welcome from "../components/Composite/welcome/welcome";
 import Works from "../components/Composite/works/works";
 import Message from "../components/Composite/message/message";
-import Leaves from "../components/Composite/leaves/leaves";
 import About from "../components/Composite/about/about";
 export default function Home() {
   const [pageActive, SetPageActive] = useState<number>(1);

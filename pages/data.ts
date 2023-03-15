@@ -59,7 +59,7 @@ export const AboutUs = [
     Name: "MURAT",
     Field: "Designer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. ",
     image: MuratProfile,
     links: [
       { icon: linkedin, adress: "" },
@@ -73,7 +73,7 @@ export const AboutUs = [
     Name: "KADIR",
     Field: "Game Designer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. ",
     image: KadirProfile,
     links: [
       { icon: linkedin, adress: "" },
@@ -87,7 +87,7 @@ export const AboutUs = [
     Name: "KURSAT",
     Field: "Designer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. ",
     image: KursatProfile,
     links: [
       { icon: linkedin, adress: "" },
@@ -101,7 +101,7 @@ export const AboutUs = [
     Name: "GORKEM",
     Field: "Designer",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. Nam venenatis sagittis massa, ut aliquet nisi pharetra vel. Integer tristique turpis nibh, a pretium orci sollicitudin in. Sed at porta nibh, id aliquet lorem. Fusce euismod quam arcu, eu dignissim ligula rutrum ac. Donec id commodo mi. Nunc feugiat leo eget magna interdum porttitor. Aenean lorem nisi, sodales ac purus id, condimentum efficitur odio. Nunc eu metus maximus, pulvinar nisi nec, scelerisque nulla. Quisque pharetra accumsan tincidunt. Nullam ac tristique est.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis pulvinar volutpat. Ut finibus suscipit placerat. Nunc lobortis massa quis ipsum eleifend varius. ",
     image: GorkemProfile,
     links: [
       { icon: linkedin, adress: "" },

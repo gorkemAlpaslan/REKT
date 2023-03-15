@@ -42,8 +42,8 @@ const About: React.FC = () => {
                           <Image
                             src={link.icon}
                             alt="link-icon"
-                            width={40}
-                            height={40}
+                            width={25}
+                            height={25}
                           />
                         </a>
                       );
