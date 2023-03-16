@@ -1,7 +1,7 @@
 ## REKT
 ## Overview
 REKT is a website developed for a company that provides information about the company's services and employees. The website provides a functional user interface, although the code structure may not be perfect.
-<p align="center">
+<p align="center flex flex-column">
       <img width="400" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDZiOTk5NmU1M2JjZWE5ZDUwMmYxZGE0OWFiYjZhMmZkMDM2NGIxMCZjdD1n/YjHh8srKulo3NkBLwp/giphy.gif" alt="App SS 3">
       <img width="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDdjMTI5Y2UwMjdkNDQ3MzEwMzZmNjI2ZWUwNzZjMTgyY2ZlMWM5ZSZjdD1n/cOl3j4MLRylPwdFWsF/giphy.gif" alt="App SS 1">
 
