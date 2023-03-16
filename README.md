@@ -4,8 +4,8 @@ REKT is a website developed for a company that provides information about the co
 <p align="center">
       <img width="400" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDZiOTk5NmU1M2JjZWE5ZDUwMmYxZGE0OWFiYjZhMmZkMDM2NGIxMCZjdD1n/YjHh8srKulo3NkBLwp/giphy.gif" alt="App SS 3">
       <img width="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDdjMTI5Y2UwMjdkNDQ3MzEwMzZmNjI2ZWUwNzZjMTgyY2ZlMWM5ZSZjdD1n/cOl3j4MLRylPwdFWsF/giphy.gif" alt="App SS 1">
-
    </p>
+   
 ## Code Structure
 Please note that the code structure of the website may not be optimal. As an amateur developer at the time of coding, I did my best to provide a functional user interface, but the code may not be structured in the most efficient manner. That being said, the website is easy to understand and modify, and I am committed to improving my skills and code quality in the future.
 
